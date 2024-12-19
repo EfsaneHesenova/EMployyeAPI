@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\bin\Debug\net8.0\Company.Core.deps.json
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\bin\Debug\net8.0\Company.Core.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\bin\Debug\net8.0\Company.Core.pdb
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.AssemblyInfo.cs
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\refint\Company.Core.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.pdb
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\ref\Company.Core.dll

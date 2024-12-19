@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\bin\Debug\net8.0\Company.BL.deps.json
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\bin\Debug\net8.0\Company.BL.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\bin\Debug\net8.0\Company.BL.pdb
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\bin\Debug\net8.0\Company.Core.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\bin\Debug\net8.0\Company.DAL.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\bin\Debug\net8.0\Company.DAL.pdb
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\bin\Debug\net8.0\Company.Core.pdb
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.AssemblyInfo.cs
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.csproj.Up2Date
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\refint\Company.BL.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\Company.BL.pdb
+C:\Users\User\source\repos\CompanyApiApp\Company.BL\obj\Debug\net8.0\ref\Company.BL.dll
