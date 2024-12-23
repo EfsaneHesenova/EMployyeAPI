@@ -14,6 +14,8 @@ namespace Company.DAL.Repositories.Abstractions
         Task<Tentity> GetByIdAsync(int id);
         void Update(Tentity entity);
         void Delete(Tentity entity);
+        Task<bool> IsExistAsync(int id);
+        void SoftDelete(Tentity entity);
         Task<int> SaveChangesAsync();
     }
 }

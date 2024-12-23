@@ -147,3 +147,12 @@ C:\Users\User\source\repos\CompanyApiApp\Company.API\obj\Debug\net8.0\refint\Com
 C:\Users\User\source\repos\CompanyApiApp\Company.API\obj\Debug\net8.0\Company.API.pdb
 C:\Users\User\source\repos\CompanyApiApp\Company.API\obj\Debug\net8.0\Company.API.genruntimeconfig.cache
 C:\Users\User\source\repos\CompanyApiApp\Company.API\obj\Debug\net8.0\ref\Company.API.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

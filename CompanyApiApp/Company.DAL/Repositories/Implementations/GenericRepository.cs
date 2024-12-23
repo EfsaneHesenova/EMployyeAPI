@@ -32,12 +32,19 @@ namespace Company.DAL.Repositories.Implementations
 
         public async Task<ICollection<Tentity>> GetAllAsync()
         {
-           return await table.ToListAsync();
+           return await table.Where(x=>!x.IsDeleted).ToListAsync();
         }
 
         public async Task<Tentity> GetByIdAsync(int id)
         {
-           return await table.FirstOrDefaultAsync(x => x.Id == id);
+             var entity = await table.FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
+            _context.Entry(entity).State = EntityState.Detached;
+             return entity;
+        }
+
+        public async Task<bool> IsExistAsync(int id)
+        {
+          return await table.AnyAsync(x => x.Id == id && !x.IsDeleted);
         }
 
         public async Task<int> SaveChangesAsync()
@@ -45,9 +52,14 @@ namespace Company.DAL.Repositories.Implementations
             return await _context.SaveChangesAsync();
         }
 
+        public void SoftDelete(Tentity entity)
+        {
+           entity.IsDeleted = true;
+        }
+
         public void Update(Tentity entity)
         {
-            table.Update(entity);
+            _context.Entry(entity).State = EntityState.Modified;
         }
     }
 }

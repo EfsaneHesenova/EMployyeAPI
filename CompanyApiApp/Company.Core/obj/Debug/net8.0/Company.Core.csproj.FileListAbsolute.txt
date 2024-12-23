@@ -9,3 +9,4 @@ C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.C
 C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\refint\Company.Core.dll
 C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.pdb
 C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\ref\Company.Core.dll
+C:\Users\User\source\repos\CompanyApiApp\Company.Core\obj\Debug\net8.0\Company.Core.csproj.AssemblyReference.cache
