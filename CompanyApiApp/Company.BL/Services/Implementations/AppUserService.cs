@@ -1,7 +1,10 @@
 ﻿using AutoMapper;
 using Company.BL.DTOs.AppUserDtos;
+using Company.BL.Exceptions.CommonExceptions;
+using Company.BL.ExternalServices.Abstractions;
 using Company.BL.Services.Abstractions;
 using Company.Core.Entities;
+using Company.DAL.Enums;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -19,13 +22,17 @@ namespace Company.BL.Services.Implementations
         private readonly SignInManager<AppUser> _signInManager;
         private readonly EmailService _emailService;
         private readonly IMapper _mapper;
+        private readonly IJwtTokenService _jwtTokenService;
+        private readonly RoleManager<AppUser> _roleManager;
 
-        public AppUserService(UserManager<AppUser> userManager, IMapper mapper, SignInManager<AppUser> signInManager, EmailService emailService)
+        public AppUserService(UserManager<AppUser> userManager, IMapper mapper, SignInManager<AppUser> signInManager, EmailService emailService, IJwtTokenService jwtTokenService, RoleManager<AppUser> roleManager)
         {
             _userManager = userManager;
             _mapper = mapper;
             _signInManager = signInManager;
             _emailService = emailService;
+            _jwtTokenService = jwtTokenService;
+            _roleManager = roleManager;
         }
 
 
@@ -39,6 +46,13 @@ namespace Company.BL.Services.Implementations
             var result = await _userManager.ConfirmEmailAsync(appUser, token);
             return result.Succeeded;
         }
+
+        /*public async Task CreateRoleAsync()
+        {
+            await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
+            await _roleManager.CreateAsync(new IdentityRole { Name = "Manager" });
+            await _roleManager.CreateAsync(new IdentityRole { Name = "User" });
+        }*/
 
         public List<AppUserReadDto> GetAllUsers()
         {
@@ -58,7 +72,7 @@ namespace Company.BL.Services.Implementations
             return result;
         }
 
-        public async Task<bool> LoginAppUserAsync(LoginDto loginDto)
+        public async Task<string> LoginAppUserAsync(LoginDto loginDto)
         {
             AppUser? user = await _userManager.FindByEmailAsync(loginDto.UserNameOrEmail);
             if (user == null)
@@ -69,12 +83,10 @@ namespace Company.BL.Services.Implementations
                     throw new Exception();
                 }
             }
-            var result = await _signInManager.PasswordSignInAsync(user, loginDto.Password, loginDto.RememberMe, true);
-            if (!result.Succeeded)
-            {
-                throw new Exception();
-            }
-            return true;
+            bool result = await _userManager.CheckPasswordAsync(user, loginDto.Password);
+            if (!result) { throw new Exception("Username or password is wrong"); }
+            string token = _jwtTokenService.GenerateToken(user);
+            return token;
         }
 
 

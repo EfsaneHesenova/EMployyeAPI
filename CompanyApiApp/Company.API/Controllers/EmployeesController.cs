@@ -2,6 +2,8 @@
 using Company.BL.Services.Abstractions;
 using Company.Core.Entities;
 using Company.DAL.DAL;
+using Company.DAL.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,6 +26,7 @@ namespace Company.API.Controllers
             return await _employeeService.GetAllAsync();
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateAsync(EmployeeCreateDto employeeCreateDto)
         {
             if (!ModelState.IsValid)

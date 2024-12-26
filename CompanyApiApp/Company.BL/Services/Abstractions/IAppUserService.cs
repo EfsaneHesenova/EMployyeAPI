@@ -8,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace Company.BL.Services.Abstractions
 {
-    public interface IAppUserService
+    public interface IAppUserService 
     {
         Task<bool> RegisterAppUserAsync(RegisterDto registerDto, IUrlHelper urlHelper);
-        Task<bool> LoginAppUserAsync(LoginDto loginDto);
+        Task<string> LoginAppUserAsync(LoginDto loginDto);
         Task<bool> LogoutAppUserAsync();
         Task<bool> ConfirmEmailAsync(string userId, string token);
         List<AppUserReadDto> GetAllUsers();
         Task<AppUserReadDto> GetOneUser(string userId);
+        Task CreateRoleAsync();
     }
 }

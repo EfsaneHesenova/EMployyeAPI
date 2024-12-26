@@ -65,24 +65,19 @@ namespace Company.API.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return StatusCode(StatusCodes.Status400BadRequest, ModelState);
             }
-
             try
             {
-                var result = await _appUserService.LoginAppUserAsync(loginDto);
-                if (result)
-                {
-                    return Ok("Login successful.");
-                }
-
-                return Unauthorized("Invalid login credentials.");
+                return StatusCode(StatusCodes.Status200OK, await _appUserService.LoginAppUserAsync(loginDto));
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+
+                return StatusCode(StatusCodes.Status400BadRequest, e.Message);
             }
         }
+    
 
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()

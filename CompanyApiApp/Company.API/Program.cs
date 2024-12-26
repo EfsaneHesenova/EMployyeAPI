@@ -3,13 +3,17 @@ using Company.BL.DTOs.DepartmentDtos;
 using Company.BL.Profiles.DepartmentProfiles;
 using Company.BL.Services.Abstractions;
 using Company.BL.Services.Implementations;
+using Company.Core.Entities;
 using Company.DAL.DAL;
 using Company.DAL.Repositories.Abstractions;
 using Company.DAL.Repositories.Implementations;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +35,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 builder.Services.AddScoped<IDepartmentRepository, DepartrmentRepository>();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddBussinesServices();
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
     opt.Password.RequiredLength = 8;
     opt.User.RequireUniqueEmail = true;
@@ -40,7 +44,26 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
     opt.Lockout.MaxFailedAccessAttempts = 3;
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
+builder.Services.AddAuthentication(cfg => {
+    cfg.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    cfg.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    cfg.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x => {
 
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8
+            .GetBytes(builder.Configuration["Jwt:SecretKey"])
+        ),
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateIssuerSigningKey = true,
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        ValidIssuer = builder.Configuration["Jwt:Issuer"]
+    };
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
