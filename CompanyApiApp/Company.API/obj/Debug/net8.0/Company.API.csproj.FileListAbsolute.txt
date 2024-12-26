@@ -315,3 +315,4 @@ C:\Users\User\Desktop\EmployeeApi\CompanyApiApp\Company.API\obj\Debug\net8.0\ref
 C:\Users\User\Desktop\EmployeeApi\CompanyApiApp\Company.API\obj\Debug\net8.0\Company.API.pdb
 C:\Users\User\Desktop\EmployeeApi\CompanyApiApp\Company.API\obj\Debug\net8.0\Company.API.genruntimeconfig.cache
 C:\Users\User\Desktop\EmployeeApi\CompanyApiApp\Company.API\obj\Debug\net8.0\ref\Company.API.dll
+C:\Users\User\Desktop\EmployeeApi\CompanyApiApp\Company.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

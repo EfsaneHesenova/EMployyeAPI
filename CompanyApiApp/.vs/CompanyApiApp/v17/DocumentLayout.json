@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|solutionrelative:company.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\services\\implementations\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\services\\implementations\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E88760F0-0E33-44CD-B15B-18ED899322B7}|Company.Core\\Company.Core.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.core\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E88760F0-0E33-44CD-B15B-18ED899322B7}|Company.Core\\Company.Core.csproj|solutionrelative:company.core\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E88760F0-0E33-44CD-B15B-18ED899322B7}|Company.Core\\Company.Core.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E88760F0-0E33-44CD-B15B-18ED899322B7}|Company.Core\\Company.Core.csproj|solutionrelative:company.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\configurationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\configurationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|solutionrelative:company.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|solutionrelative:company.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\services\\implementations\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\services\\implementations\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\services\\abstractions\\iappuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\externalservices\\implementations\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\externalservices\\implementations\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|solutionrelative:company.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\externalservices\\abstractions\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9FF67D0-A30F-44BF-B87E-789E40D72460}|Company.API\\Company.API.csproj|solutionrelative:company.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\configurationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\configurationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|c:\\users\\user\\desktop\\employeeapi\\companyapiapp\\company.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC7F2F6D-354F-47D9-AF16-5EEA76BD2A04}|Company.BL\\Company.BL.csproj|solutionrelative:company.bl\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,85 +106,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoleEnum.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.DAL\\Enums\\RoleEnum.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Enums\\RoleEnum.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.DAL\\Enums\\RoleEnum.cs",
-              "RelativeToolTip": "Company.DAL\\Enums\\RoleEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:07:52.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
-              "RelativeToolTip": "Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
-              "ViewState": "AgIAABsAAADAmZmZmRkWwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T06:34:43.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IJwtTokenService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
-              "RelativeDocumentMoniker": "Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
-              "RelativeToolTip": "Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T20:40:25.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.Core\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Company.Core\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.Core\\Entities\\Department.cs",
+              "RelativeToolTip": "Company.Core\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T20:24:09.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.Core\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Company.Core\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.Core\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Company.Core\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T20:23:58.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Company.BL\\Services\\Implementations\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeToolTip": "Company.BL\\Services\\Implementations\\EmployeeService.cs",
+              "ViewState": "AgIAAAEAAACQZmZmZiYwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T20:22:21.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppUserService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\AppUserService.cs",
               "RelativeDocumentMoniker": "Company.BL\\Services\\Implementations\\AppUserService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\AppUserService.cs",
               "RelativeToolTip": "Company.BL\\Services\\Implementations\\AppUserService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAABAAAAAD8vy8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T12:33:24.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAppUserService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Abstractions\\IAppUserService.cs",
-              "RelativeDocumentMoniker": "Company.BL\\Services\\Abstractions\\IAppUserService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Abstractions\\IAppUserService.cs",
-              "RelativeToolTip": "Company.BL\\Services\\Abstractions\\IAppUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:33:23.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.API\\Program.cs",
               "RelativeDocumentMoniker": "Company.API\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.API\\Program.cs",
               "RelativeToolTip": "Company.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T12:39:18.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.API\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Company.API\\Controllers\\EmployeesController.cs",
@@ -176,12 +179,11 @@
               "RelativeToolTip": "Company.API\\Controllers\\EmployeesController.cs",
               "ViewState": "AgIAAAwAAAAAMzMzM5MwwBwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:43:15.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T12:43:15.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.API\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "Company.API\\Controllers\\AccountsController.cs",
@@ -194,7 +196,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "ConfigurationServices.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ConfigurationServices.cs",
+              "RelativeDocumentMoniker": "Company.BL\\ConfigurationServices.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ConfigurationServices.cs",
+              "RelativeToolTip": "Company.BL\\ConfigurationServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABAvRQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:37:52.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "Company.BL\\Services\\Implementations\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeToolTip": "Company.BL\\Services\\Implementations\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAACAZmZmZuYswFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:04:53.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "Company.BL\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "Company.BL\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T20:18:03.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAppUserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Abstractions\\IAppUserService.cs",
+              "RelativeDocumentMoniker": "Company.BL\\Services\\Abstractions\\IAppUserService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Abstractions\\IAppUserService.cs",
+              "RelativeToolTip": "Company.BL\\Services\\Abstractions\\IAppUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:33:23.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
+              "RelativeToolTip": "Company.BL\\ExternalServices\\Abstractions\\IJwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T20:40:25.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
+              "RelativeToolTip": "Company.BL\\ExternalServices\\Implementations\\JwtTokenService.cs",
+              "ViewState": "AgIAABsAAADAmZmZmRkWwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T06:34:43.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleEnum.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.DAL\\Enums\\RoleEnum.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Enums\\RoleEnum.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.DAL\\Enums\\RoleEnum.cs",
+              "RelativeToolTip": "Company.DAL\\Enums\\RoleEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:07:52.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.API\\appsettings.json",
               "RelativeDocumentMoniker": "Company.API\\appsettings.json",
@@ -202,12 +291,11 @@
               "RelativeToolTip": "Company.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-25T20:35:46.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T20:35:46.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\DTOs\\AppUserDtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Company.BL\\DTOs\\AppUserDtos\\RegisterDto.cs",
@@ -215,12 +303,11 @@
               "RelativeToolTip": "Company.BL\\DTOs\\AppUserDtos\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T06:38:29.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T06:38:29.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "AppUserReadDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\DTOs\\AppUserDtos\\AppUserReadDto.cs",
               "RelativeDocumentMoniker": "Company.BL\\DTOs\\AppUserDtos\\AppUserReadDto.cs",
@@ -228,12 +315,11 @@
               "RelativeToolTip": "Company.BL\\DTOs\\AppUserDtos\\AppUserReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:19:05.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T13:19:05.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\DTOs\\AppUserDtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "Company.BL\\DTOs\\AppUserDtos\\LoginDto.cs",
@@ -241,12 +327,11 @@
               "RelativeToolTip": "Company.BL\\DTOs\\AppUserDtos\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T06:36:59.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T06:36:59.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.DAL\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Company.DAL\\DAL\\AppDbContext.cs",
@@ -254,12 +339,11 @@
               "RelativeToolTip": "Company.DAL\\DAL\\AppDbContext.cs",
               "ViewState": "AgIAAAcAAADAzMzMzMwqwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T20:35:34.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T20:35:34.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.API\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "Company.API\\Controllers\\DepartmentsController.cs",
@@ -267,12 +351,11 @@
               "RelativeToolTip": "Company.API\\Controllers\\DepartmentsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwv5IAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:05:39.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T13:05:39.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "AppUserProfile.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Profiles\\AppUserProfiles\\AppUserProfile.cs",
               "RelativeDocumentMoniker": "Company.BL\\Profiles\\AppUserProfiles\\AppUserProfile.cs",
@@ -280,34 +363,7 @@
               "RelativeToolTip": "Company.BL\\Profiles\\AppUserProfiles\\AppUserProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:19:56.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ConfigurationServices.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ConfigurationServices.cs",
-              "RelativeDocumentMoniker": "Company.BL\\ConfigurationServices.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\ConfigurationServices.cs",
-              "RelativeToolTip": "Company.BL\\ConfigurationServices.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:37:52.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "Company.BL\\Services\\Implementations\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\EmployeeApi\\CompanyApiApp\\Company.BL\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeToolTip": "Company.BL\\Services\\Implementations\\DepartmentService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAIwFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T13:04:53.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T13:19:56.108Z"
             }
           ]
         }

@@ -20,12 +20,12 @@ namespace Company.BL.Services.Implementations
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-        private readonly EmailService _emailService;
+        private readonly IEmailService _emailService;
         private readonly IMapper _mapper;
         private readonly IJwtTokenService _jwtTokenService;
-        private readonly RoleManager<AppUser> _roleManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AppUserService(UserManager<AppUser> userManager, IMapper mapper, SignInManager<AppUser> signInManager, EmailService emailService, IJwtTokenService jwtTokenService, RoleManager<AppUser> roleManager)
+        public AppUserService(UserManager<AppUser> userManager, IMapper mapper, SignInManager<AppUser> signInManager, IEmailService emailService, IJwtTokenService jwtTokenService, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _mapper = mapper;
@@ -47,12 +47,12 @@ namespace Company.BL.Services.Implementations
             return result.Succeeded;
         }
 
-        /*public async Task CreateRoleAsync()
+        public async Task CreateRoleAsync()
         {
             await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
             await _roleManager.CreateAsync(new IdentityRole { Name = "Manager" });
             await _roleManager.CreateAsync(new IdentityRole { Name = "User" });
-        }*/
+        }
 
         public List<AppUserReadDto> GetAllUsers()
         {

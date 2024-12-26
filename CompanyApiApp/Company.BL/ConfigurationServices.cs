@@ -1,4 +1,6 @@
-﻿using Company.BL.Services.Abstractions;
+﻿using Company.BL.ExternalServices.Abstractions;
+using Company.BL.ExternalServices.Implementations;
+using Company.BL.Services.Abstractions;
 using Company.BL.Services.Implementations;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +20,7 @@ namespace Company.BL
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IAppUserService, AppUserService>();
+            services.AddScoped<IJwtTokenService, JwtTokenService>();
             services.AddHttpContextAccessor();
             services.AddSingleton<IUrlHelperFactory, UrlHelperFactory>();
         }
